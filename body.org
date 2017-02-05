@@ -1,0 +1,7 @@
+#+LATEX_CLASS: fyp
+
+* name of chapter 1
+
+* name of chapter 2
+
+* conclusion

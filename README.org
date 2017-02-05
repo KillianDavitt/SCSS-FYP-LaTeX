@@ -1,0 +1,26 @@
+
+* SCSS Latex-Org
+This is a fork of Stephen Shaw's
+[[https://github.com/stesh/SCSS-FYP-LaTeX]] with the purpose of adapting
+it for easy use with Emacs org mode
+
+** Requirements
+- xelatex
+- emacs
+- org-mode
+
+** Usage
+- clone the repo :)
+- add the fyp.el file to your emacs init file
+- Change your personal info in constants.tex
+- Edit your report in body.org 
+- Export with C-c C-e
+- *Make sure you set export body only with C-b*
+- Then hit l l to export to a .tex file
+
+Compile the report with the following:
+#+BEGIN_SRC bash
+xetex report.tex
+bibtex report
+xetex report.tex
+#+END_SRC
