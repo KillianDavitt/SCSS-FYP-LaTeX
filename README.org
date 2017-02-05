@@ -24,3 +24,9 @@ xetex report.tex
 bibtex report
 xetex report.tex
 #+END_SRC
+
+** Font issues
+By default Helvetica is used for the title page, Helvetica is hard to
+get on any kind of linux, i'd recommend changing the font to "Nimbus
+Sans L" if you can't get Helvetica installed. I'd imagine it would work
+fine on windows and possibly also on MacOS
