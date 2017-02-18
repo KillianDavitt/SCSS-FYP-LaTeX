@@ -1,8 +1,0 @@
-#+LATEX_CLASS: fyp
-
-* name of chapter 1
-This is chapter 1
-* name of chapter 2
-This is chapter 2
-* conclusion
-This is my conclusion

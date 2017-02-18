@@ -1,0 +1,41 @@
+#+LATEX_CLASS: report
+#+LATEX_HEADER: \include{preamble}
+#+OPTIONS: toc:nil
+# Uncomment this if you want to print DRAFT in big letters on each page
+# \usepackage{draftwatermark}
+
+# Inserts the 'TRINITY COLLEGE' etc. page
+\inserttitlepage
+
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+\declaration
+
+\permissiontolend
+
+\insertabstract
+
+# Need to fiddle with page numbers manually to make them consistent
+\setcounter{page}{4}
+\acknowledgements
+
+\tableofcontents
+
+\newpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+* First section
+
+** First chapter
+
+** Second chapter
+* Second
+** Third chap
+
+\insertbibliography
+
+\appendix
+
