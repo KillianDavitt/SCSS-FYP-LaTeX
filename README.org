@@ -13,10 +13,20 @@ it for easy use with Emacs org mode
 - clone the repo :)
 - add the fyp.el file to your emacs init file
 - Change your personal info in constants.tex
+- Change the directory in fyp.el if neccessary
 - Edit your report in report.org 
 - Export with C-c C-e
 - Then hit l l to export to a .tex file
 
+** Org-ref
+I fully reccommend using org-ref to do easy citations.
+
+- Make your bibtex file as normal in the file specified in fyp.el
+- Include the bibtex file in report.org using M-x org-ref-insert-bibliography-link (At the end of the file ish)
+- load org-ref M-x org-ref
+- Make citations using C-c ]
+
+** To recompile with bibtex
 Compile the report with the following:
 #+BEGIN_SRC bash
 xetex report.tex
