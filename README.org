@@ -13,9 +13,8 @@ it for easy use with Emacs org mode
 - clone the repo :)
 - add the fyp.el file to your emacs init file
 - Change your personal info in constants.tex
-- Edit your report in body.org 
+- Edit your report in report.org 
 - Export with C-c C-e
-- *Make sure you set export body only with C-b*
 - Then hit l l to export to a .tex file
 
 Compile the report with the following:
