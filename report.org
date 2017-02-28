@@ -1,5 +1,5 @@
 #+LATEX_CLASS: report
-#+LATEX_HEADER: \include{preamble}
+#+LATEX_HEADER: \include{settings/preamble}
 #+OPTIONS: toc:nil
 # Uncomment this if you want to print DRAFT in big letters on each page
 # \usepackage{draftwatermark}
