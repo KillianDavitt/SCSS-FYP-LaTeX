@@ -12,7 +12,7 @@ it for easy use with Emacs org mode
 ** Usage
 - clone the repo :)
 - add the fyp.el file to your emacs init file
-- Change your personal info in constants.tex
+- Change your personal info in settings/constants.tex
 - Change the directory in fyp.el if neccessary
 - Edit your report in report.org 
 - Export with C-c C-e
