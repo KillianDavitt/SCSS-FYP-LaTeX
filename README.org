@@ -1,8 +1,6 @@
-
 * SCSS Latex-Org
-This is a fork of Stephen Shaw's
-[[https://github.com/stesh/SCSS-FYP-LaTeX]] with the purpose of adapting
-it for easy use with Emacs org mode
+This is a fork of Stephen Shaw's [[https://github.com/stesh/SCSS-FYP-LaTeX]]
+with the purpose of adapting it for easy use with Emacs org mode.
 
 ** Requirements
 - xelatex
@@ -10,21 +8,22 @@ it for easy use with Emacs org mode
 - org-mode
 
 ** Usage
-- clone the repo :)
-- add the fyp.el file to your emacs init file
-- Change your personal info in settings/constants.tex
-- Change the directory in fyp.el if neccessary
-- Edit your report in report.org 
-- Export with C-c C-e
-- Then hit l l to export to a .tex file
+- Clone the repo :)
+- Add the ~fyp.el~ file to your emacs init file
+- Change your personal info in ~settings/constants.tex~
+- Change the directory in ~fyp.el~ if neccessary
+- Edit your report in ~report.org~
+- Export with ~C-c C-e~
+- Then hit ~l l~ to export to a ~.tex~ file
 
 ** Org-ref
 I fully reccommend using org-ref to do easy citations.
 
-- Make your bibtex file as normal in the file specified in fyp.el
-- Include the bibtex file in report.org using M-x org-ref-insert-bibliography-link (At the end of the file ish)
-- load org-ref M-x org-ref
-- Make citations using C-c ]
+- Make your bibtex file as normal in the file specified in ~fyp.el~
+- Include the bibtex file in ~report.org~ using ~M-x
+  org-ref-insert-bibliography-link~ (At the end of the file ish)
+- load org-ref ~M-x org-ref~
+- Make citations using ~C-c ]~
 
 ** To recompile with bibtex
 Compile the report with the following:
@@ -35,7 +34,6 @@ xetex report.tex
 #+END_SRC
 
 ** Font issues
-By default Helvetica is used for the title page, Helvetica is hard to
-get on any kind of linux, i'd recommend changing the font to "Nimbus
-Sans L" if you can't get Helvetica installed. I'd imagine it would work
-fine on windows and possibly also on MacOS
+The font is set to "Nimbus Sans L" since Helvetica is hard to get on any kind of
+Linux. Feel free to change back to Helvetica, you may want to on macOS since it
+ships with Helvetica but not "Nimbus Sans L"
