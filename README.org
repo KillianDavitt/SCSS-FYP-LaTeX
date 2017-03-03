@@ -2,6 +2,8 @@
 This is a fork of Stephen Shaw's [[https://github.com/stesh/SCSS-FYP-LaTeX]]
 with the purpose of adapting it for easy use with Emacs org mode.
 
+See [[report.pdf]] for an example of a produced PDF.
+
 ** Requirements
 - xelatex
 - emacs
@@ -17,7 +19,7 @@ with the purpose of adapting it for easy use with Emacs org mode.
 - Then hit ~l l~ to export to a ~.tex~ file
 
 ** Org-ref
-I fully reccommend using org-ref to do easy citations.
+I fully recommend using org-ref to do easy citations.
 
 - Make your bibtex file as normal in the file specified in ~fyp.el~
 - Include the bibtex file in ~report.org~ using ~M-x
@@ -33,7 +35,7 @@ bibtex report
 xetex report.tex
 #+END_SRC
 
-** Font issues
+** Font
 The font is set to "Nimbus Sans L" since Helvetica is hard to get on any kind of
 Linux. Feel free to change back to Helvetica, you may want to on macOS since it
-ships with Helvetica but not "Nimbus Sans L"
+ships with Helvetica but not "Nimbus Sans L".
